@@ -4,6 +4,6 @@ import "fmt"
 
 // this is the main file
 
-func main() {
+func one() {
 	fmt.Print("rahul")
 }

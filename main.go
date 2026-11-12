@@ -1,7 +1,13 @@
-// package main
+package main
+
+import (
+	"fmt"
+	"learn-golang/learn"
+)
 
 // initial function
 
-// func main() {
-// 	fmt.Print("rahul")
-// }
+func main() {
+	res := learn.ReturnLibraryName()
+	fmt.Print(res)
+}
